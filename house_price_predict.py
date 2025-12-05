@@ -61,6 +61,5 @@ def house_price_predict():
     st.divider()
     st.info(f"Линейная Регрессия (Baseline): **`{r2_linear:.4f}`**")
     st.info(f"Решающее Дерево (Max Depth 5): **`{r2_tree:.4f}`**")
-    
     st.success(f"Случайный Лес (Random Forest): **`{r2_forest:.4f}`**")
     
